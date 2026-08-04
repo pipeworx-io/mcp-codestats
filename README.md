@@ -1,15 +1,17 @@
-# mcp-codestats
+# @pipeworx/codestats
 
-Code::Stats MCP — public user XP / activity.
+[Code::Stats](https://codestats.net) public profile MCP — per-user coding XP across languages, machines, recent activity. Keyless.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 673+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
 
 ## Tools
 
-| Tool | Description |
-|------|-------------|
-| `user` | Public profile — total XP, per-language XP, per-machine XP. |
-| `recent` | Recent coding activity (~last 12 hours) for a user. |
+- `user(username)` — profile + total XP, per-language XP, per-machine XP
+- `recent(username)` — recent (last ~12h) coding activity
+
+## Data source
+
+`https://codestats.net/api/users/<name>` and `?recent=true` variant.
 
 ## Quick Start
 
@@ -25,7 +27,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 673+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -49,7 +51,7 @@ The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
