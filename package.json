@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-codestats",
-  "version": "0.1.0",
-  "description": "Code::Stats public coding-XP profiles (codestats.net)",
+  "version": "0.1.1",
+  "description": "Code::Stats MCP — public user XP / activity.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-codestats": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "codestats"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-codestats"
+    "url": "git+https://github.com/pipeworx-io/mcp-codestats.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-244a5ae76c4e544f27fa205eab10045a33a63ff37b6e71a3a4b48b3fa5fc3a74",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }
