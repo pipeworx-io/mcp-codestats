@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-codestats",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Code::Stats MCP — public user XP / activity.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-f9324bbee13c3002a507ae7673dd42a647008322d2cc4cf9594cfb82ded1aa9a",
-    "sourceCommit": "b0a4b8e2f3f5b3a4c3f9f2c9a73f91b20d32ce11"
+    "sourceHash": "v1-346f8abd24b5125ec9ef530ba8f19049b427bfa50a0e266b4462fcf720e3fc08",
+    "sourceCommit": "f1ef7a2f6b9cb1b8da1374ec2fcb28c661582b35"
   }
 }

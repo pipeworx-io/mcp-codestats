@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/codestats",
   "title": "Codestats",
   "description": "Code::Stats MCP — public user XP / activity.",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "websiteUrl": "https://pipeworx.io/packs/codestats",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-codestats",
