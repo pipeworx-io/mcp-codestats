@@ -1,0 +1,32 @@
+[
+  {
+    "name": "user",
+    "description": "Public profile — total XP, per-language XP, per-machine XP.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "username": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "username"
+      ]
+    }
+  },
+  {
+    "name": "recent",
+    "description": "Code::Stats (codestats.net) — the XP one Code::Stats user has earned in roughly the last 12 hours, broken out by programming language and by machine, alongside their lifetime profile totals. Answers how much a Code::Stats user has coded today and in which languages.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "username": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "username"
+      ]
+    }
+  }
+]
