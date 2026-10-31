@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-codestats",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Code::Stats MCP — public user XP / activity.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "codestats",
     "gatewaySlug": "codestats",
-    "sourceHash": "v1-62e08e8be781c09aba14607ff8f4452ab3538725ac62119b841a039d7be04fdb",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-71aade41ca3ff35be70f3e0cccffe7ea6afdaa1972b6f1de6f1af58882049995",
+    "sourceCommit": "8cc978183948532674e797c429305c9d8ab2a1c3"
   }
 }
